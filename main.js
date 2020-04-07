@@ -1,6 +1,6 @@
 const app = require("express")();
 const request = require("request");
-let interval= 5;
+let interval= 9999999;
 app.get("/", (req, res) => {
     res.send("ALL IS WELL");
     res.end();
